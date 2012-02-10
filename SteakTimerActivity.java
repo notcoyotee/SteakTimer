@@ -101,12 +101,12 @@ public class SteakTimerActivity extends Activity {
 				spnr1.setEnabled(false);
 				Spinner spnr2 = (Spinner) findViewById(R.id.spinner2);
 				spnr2.setEnabled(false);
-				MediaPlayer TickAudioPlayer = MediaPlayer.create(
+				/*MediaPlayer TickAudioPlayer = MediaPlayer.create(
 						getApplicationContext(), R.raw.clockticking);
 
 				TickAudioPlayer.setLooping(true);
 				TickAudioPlayer.start();
-				counter.start();
+*/				counter.start();
 			}
 		});
 
@@ -155,7 +155,6 @@ public class SteakTimerActivity extends Activity {
 		@Override
 		public void onFinish() {
 			bar.setProgress(0);
-			TickAudioPlayer.stop();
 			DoneAudioPlayer.start();
 			CurrentSide = CurrentSide + 1;
 			if (CurrentSide == 2) {
