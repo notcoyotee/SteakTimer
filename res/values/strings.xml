@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">How do you want your Steak done ?</string>
+    <string name="app_name">SteakTimer</string>
+    <string-array name="Stake_How">
+        <item >Rare</item>
+        <item >Medium Rare</item>
+        <item >Medium</item>
+        <item >Well Done</item>
+        <item >Steak_Sizes</item>
+    </string-array>
+    <string name="SizeQuestion">How thick is your Steak ?</string>
+    <string-array name="StakeSizes">
+        <item >Half inch</item>
+        <item >Quarter inch</item>
+        <item >One inch</item>
+        <item >One and Quarter inch</item>
+        <item >One and Half inch</item>
+        <item >One and Three Quarter inch</item>
+        <item >Two inches</item>
+    </string-array>
+    <string name="PreInstr1">1. Lightly oil and season the steak</string>
+    <string name="PreInstr2">2. Preheat the grill on high</string>
+
+</resources>
